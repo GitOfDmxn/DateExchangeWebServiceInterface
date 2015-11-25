@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connectors>
+	<connector type="source">
+		<url>10.1.214.114</url>
+		<port>1521</port>
+		<sid>yyjc</sid>
+		<user>SG_CWFK</user>
+		<pwd>SG_CWFK</pwd>
+	</connector>
+	<connector type="destination">
+		<url>10.85.18.208</url>
+		<port>1521</port>
+		<sid>gt3</sid>
+		<user>dw</user>
+		<pwd>dwqwert</pwd>
+	</connector>
+</connectors>

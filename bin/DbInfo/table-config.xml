@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+	<table name="FRTM_ZXJH_DATADETAIL" cloumCount="55" roleId="RULEID" comment="稽核结果数据明细表">
+		<column type="varchar">ID</column>
+		<column type="varchar">RULEID</column>
+		<column type="varchar">ORG_CODE</column>
+		<column type="varchar">ORG_NAME</column>
+		<column type="varchar">NY</column>
+		<column type="varchar">A</column>
+		<column type="varchar">B</column>
+		<column type="varchar">C</column>
+		<column type="varchar">D</column>
+		<column type="varchar">E</column>
+		<column type="varchar">F</column>
+		<column type="varchar">G</column>
+		<column type="varchar">H</column>
+		<column type="varchar">I</column>
+		<column type="varchar">J</column>
+		<column type="varchar">K</column>
+		<column type="varchar">L</column>
+		<column type="varchar">M</column>
+		<column type="varchar">N</column>
+		<column type="varchar">O</column>
+		<column type="varchar">P</column>
+		<column type="varchar">Q</column>
+		<column type="varchar">R</column>
+		<column type="varchar">S</column>
+		<column type="varchar">T</column>
+		<column type="varchar">U</column>
+		<column type="varchar">V</column>
+		<column type="varchar">W</column>
+		<column type="varchar">X</column>
+		<column type="varchar">Y</column>
+		<column type="varchar">Z</column>
+		<column type="varchar">AA</column>
+		<column type="varchar">AB</column>
+		<column type="varchar">AC</column>
+		<column type="varchar">AD</column>
+		<column type="varchar">AE</column>
+		<column type="varchar">AF</column>
+		<column type="varchar">AG</column>
+		<column type="varchar">AH</column>
+		<column type="varchar">AI</column>
+		<column type="varchar">AJ</column>
+		<column type="varchar">AK</column>
+		<column type="varchar">AL</column>
+		<column type="varchar">AM</column>
+		<column type="varchar">AN</column>
+		<column type="varchar">AO</column>
+		<column type="varchar">AP</column>
+		<column type="varchar">AQ</column>
+		<column type="varchar">AR</column>
+		<column type="varchar">ASS</column>
+		<column type="varchar">SYS_NAME</column>
+		<column type="varchar">DEP_ORG</column>
+		<column type="varchar">WORK_NO</column>
+		<column type="timestamp">TIME_STAMP</column>
+		<column type="varchar">RECORDSTATUS</column>
+	</table>
+	<table name="FRTM_ZXJH_DD" cloumCount="11" roleId="RULEID" comment="稽核结果数据表">
+		<column type="varchar">RULEID</column>
+		<column type="varchar">COL</column>
+		<column type="varchar">COL_NAME</column>
+		<column type="varchar">DATATYPE</column>
+		<column type="number">LENGTH</column>
+		<column type="char">COL_ORDER</column>
+		<column type="char">STATUS</column>
+		<column type="date">LAST_TIME</column>
+		<column type="varchar">REMARK</column>
+		<column type="varchar">ISSHOW</column>
+ 		<column type="varchar">RECORDSTATUS</column>
+	</table>
+	<table name="YWXT_DATA_LOG" cloumCount="6" roleId="" comment="业务系统传输批次日志表">
+		<column type="varchar">SYS_NAME</column>
+		<column type="varchar">DEP_ORG</column>
+		<column type="varchar">WORK_NO</column>
+		<column type="varchar">WORK_RESULT</column>
+		<column type="date">BEGIN_TIME</column>
+		<column type="date">END_TIME</column>
+	</table>
+	<table name="YWXT_TABLE_LOG" cloumCount="10" roleId="" comment="业务系统表传输日志表">
+		<column type="varchar">WORK_NO</column>
+		<column type="varchar">TABLE_NAME</column>
+		<column type="number">SEND_COUNT</column>
+		<column type="number">ACCESS_COUNT</column>
+		<column type="varchar">WORK_RESULT</column>
+		<column type="date">BEGIN_TIME</column>
+		<column type="date">END_TIME</column>
+		<column type="varchar">FAIL_REASON</column>
+		<column type="varchar">ROL_NAME</column>
+		<column type="varchar">ACCESS_REMARK</column>
+	</table>
+	<table name="YWXT_TABLE_CHECK_LOG" cloumCount="10" roleId="" comment="业务系统表校验日志表">
+		<column type="varchar">WORK_NO</column>
+		<column type="varchar">TABLE_NAME</column>
+		<column type="number">SEND_COUNT</column>
+		<column type="number">ACCESS_COUNT</column>
+		<column type="varchar">WORK_RESULT</column>
+		<column type="date">BEGIN_TIME</column>
+		<column type="date">END_TIME</column>
+		<column type="varchar">FAIL_REASON</column>
+		<column type="varchar">ROL_NAME</column>
+		<column type="varchar">ACCESS_REMARK</column>
+	</table>
+</tables>

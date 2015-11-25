@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.umb.webservice.dataexchange.test
+Class-Path: lib/ojdbc14.jar lib/umbbase.jar lib/umbclient.jar lib/jdom.jar.
+
